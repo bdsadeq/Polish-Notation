@@ -53,6 +53,24 @@ Algorithm Evaluation (Postfix expression)
  - 5. Set value equal to the top element on STACK.
  - 6. Exit.
  
+### Program Development
+In postfix notation the operators follow their operands; for instance, to add three and four one would write "3 4 +" rather than "3 + 4". If there are multiple operations, the operator is given immediately after its second operand; so the expression written "3 − 4 + 5" in conventional infix notation would be written "3 4 − 5 +" in RPN: first subtract 4 from 3, then add 5 to that. An advantage of RPN is that it obviates the need for parentheses that are required by infix. While "3 − 4 * 5" can also be written "3 − (4 * 5)", that means something quite different from "(3 − 4) * 5", and only the parentheses disambiguate the two meanings. In postfix, the former would be written "3 4 5 * −", which unambiguously means "3 (4 5 *) −".
+
+This program is stack base program. Operands are pushed onto a stack, but when an operation is performed, operands will be popped from that stack and result will be pushed again.
+
+ - 1.	Build a stack.
+ - 2.	Transform infix to postfix.
+ - 3.	Evaluate that postfix value.
+ 
+### Result
+Using this idea and algorithms we build a program to convert an infix expressions to postfix expressions and evaluate the value of that postfix expressions.
+
+### Example
+Let, an infix expression is 1 + ( 2 * 3 – ( 4 / 5 ^ 6 ) * 7 ) * 8
+
+Procedure into postfix
+
+
 
 
 
