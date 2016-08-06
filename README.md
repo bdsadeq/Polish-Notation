@@ -80,5 +80,17 @@ Procedure to evaluate the value
 
 ### Limitations
 
+This program has some limitations.
+
+ - 1.	We cannot transform a infix expressions into postfix expressions like this ( 2 digit number)
+12 + 13 – 62
+ - 2.	For this limitation we also cannot evaluate this expression’s value.
+ 
+### Conclusion
+We can develop a program for 2 or more digits input numbers, using 2 stacks. One of them will be char type and another is integer or floating type. When the input is number then we have to insert into char stack, otherwise we insert into integer type stack. But the index number will be consecutive.
+
+May be using this idea, we can develop a new infix to post conversion expression. We can find out the value also.
+
+
 
 
