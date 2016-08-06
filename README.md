@@ -70,7 +70,15 @@ Let, an infix expression is 1 + ( 2 * 3 – ( 4 / 5 ^ 6 ) * 7 ) * 8
 
 Procedure into postfix
 
+![Preview Loading ...](http://image.sadequr.com/github/polish_notation/procedure_into_postfix.jpg)
 
+Let, an postfix expression is 7 6 9 + * 12 4 / -
+
+Procedure to evaluate the value
+
+![Preview Loading ...](http://image.sadequr.com/github/polish_notation/procedure_to_evaluate_the_value.jpg)
+
+### Limitations
 
 
 
